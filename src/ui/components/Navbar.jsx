@@ -26,7 +26,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={isActive =>
-                            "nava-item nav-link" + (!isActive ? " unselected" : "")
+                            "nav-item nav-link" + (!isActive ? " unselected" : "")
                           } 
                         to="/marvel"
                     >
@@ -35,11 +35,20 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={isActive =>
-                            "nava-item nav-link" + (!isActive ? " unselected" : "")
+                            "nav-item nav-link" + (!isActive ? " unselected" : "")
                           }  
                         to="/dc"
                     >
                         DC
+                    </NavLink>
+
+                    <NavLink 
+                        className={isActive =>
+                            "nav-item nav-link" + (!isActive ? " unselected" : "")
+                          }  
+                        to="/search"
+                    >
+                        Search
                     </NavLink>
                 </div>
             </div>
