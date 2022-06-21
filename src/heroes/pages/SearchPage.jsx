@@ -44,6 +44,7 @@ export const SearchPage = () => {
           <div className="col-7">
             <h4>Results</h4>
             <hr />
+            {/* style={{display: q !== '' ? none : ''}} */}
             {
               (q === '') ? 
               <div className="alert alert-primary">
