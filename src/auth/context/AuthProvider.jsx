@@ -13,7 +13,7 @@ export const AuthProvider = ({children}) => {
 
     const login = (name = '') => {
         const action = {
-            types: types.login,
+            type: types.login,
             payload: {
                 id: 'ABC',
                 name: name
